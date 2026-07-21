@@ -1,0 +1,22 @@
+name: de_colonsegnet_env
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pip:
+    - opencv-python
+    - numpy
+    - tqdm
+    - pycocotools
+    - albumentations
+    - onnx
+    - onnxruntime-gpu
+    - tensorrt
